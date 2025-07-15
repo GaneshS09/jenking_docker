@@ -14,17 +14,17 @@ public class MainController {
         return "Hello World to Ganesh Gasain";
     }
 
-    @GetMapping("/1")
+    @GetMapping("/2")
     public String getMessageSecond(){
         return "Ganesh Welcome to Jenkins Docker World Second";
     }
 
-    @GetMapping("/2")
+    @GetMapping("/3")
     public String getMessageThird(){
         return "Ganesh Welcome to Jenkins Docker Third World Second";
     }
 
-    @GetMapping("/3")
+    @GetMapping("/4")
     public String getMessagefourth() {
         return "Ganesh Welcome to Jenkins Docker Fourth World Second";
     }
