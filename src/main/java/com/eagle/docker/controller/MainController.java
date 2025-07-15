@@ -23,4 +23,9 @@ public class MainController {
     public String getMessageThird(){
         return "Ganesh Welcome to Jenkins Docker Third World Second";
     }
+
+    @GetMapping("/3")
+    public String getMessagefourth() {
+        return "Ganesh Welcome to Jenkins Docker Fourth World Second";
+    }
 }
